@@ -1,0 +1,69 @@
+
+{
+  "evaluation_name": "FER2013 held-out test evaluation",
+  "dataset": "FER2013 balanced test split",
+  "test_images": 6286,
+  "class_count": 7,
+  "evaluation_preprocessing": "RGB, 224x224, MobileNetV2 preprocess_input",
+  "class_order": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "metrics": {
+    "accuracy": 0.7078,
+    "macro_precision": 0.7032,
+    "macro_recall": 0.7078,
+    "macro_f1": 0.7027,
+    "weighted_f1": 0.7027,
+    "correct_predictions": 4449,
+    "misclassified_predictions": 1837
+  },
+  "per_class_metrics": {
+    "angry": {
+      "precision": 0.6008,
+      "recall": 0.6871,
+      "f1": 0.6410
+    },
+    "disgust": {
+      "precision": 0.9347,
+      "recall": 0.9722,
+      "f1": 0.9531
+    },
+    "fear": {
+      "precision": 0.5992,
+      "recall": 0.4811,
+      "f1": 0.5337
+    },
+    "happy": {
+      "precision": 0.8130,
+      "recall": 0.8330,
+      "f1": 0.8229
+    },
+    "neutral": {
+      "precision": 0.5850,
+      "recall": 0.6670,
+      "f1": 0.6233
+    },
+    "sad": {
+      "precision": 0.5750,
+      "recall": 0.4610,
+      "f1": 0.5117
+    },
+    "surprise": {
+      "precision": 0.8149,
+      "recall": 0.8530,
+      "f1": 0.8335
+    }
+  },
+  "limitations": [
+    "These metrics describe this test split only.",
+    "They do not measure accuracy on the uploaded video.",
+    "They do not establish real-world emotional-state recognition.",
+    "Results depend on dataset labels and evaluation preprocessing."
+  ]
+}

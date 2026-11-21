@@ -1,0 +1,14 @@
+# Runtime dependencies. Tested with Python 3.11.
+# Keras 3 is required: the saved model was written with Keras 3.13.2.
+tensorflow==2.20.0
+keras==3.13.2
+mediapipe==1.2.3
+numpy==2.4.6
+opencv-python==5.1.0.95
+pandas==3.1.1
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+python-multipart==0.0.34
+google-genai==3.6.1
+python-dotenv==1.2.1
+pydantic==2.14.3

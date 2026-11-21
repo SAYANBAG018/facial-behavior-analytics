@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Secrets: never commit API keys
+.env
+.streamlit/secrets.toml
+
+# Generated analysis output (keep the verified evaluation summary)
+outputs/*
+!outputs/verified_evaluation_summary.json
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
